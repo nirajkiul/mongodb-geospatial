@@ -4,30 +4,31 @@
 - Node.js installed and working on your development machine. 
 - MongoDb installed and running on your development machine.
 
-#APIS Endpoint
-> ** For Inserting data: **  POST: `http://localhost:3000/api/insert`
-> ** For Getting data: **   GET: `http://localhost:3000/api/insert`
+## APIS Endpoint
+- ** POST: ** [Insert](http://localhost:3000/api/insert)
+- ** GET: ** [Retrive](http://localhost:3000/api/insert)
 
-![Response.](response.PNG)
+![Response](response.png)
 
 
 ## Algo
 Required Schema:
-var PlacesSchema = new Schema({
-    name: {
-        type: String,
-        required: false
-    },
-    location: {
-        "type": { type: String },
-        "coordinates" :[]
-    },
-    emotion: {
-        type: String,
-        required: false
-    }
-
-});
+ ```Shell
+    var PlacesSchema = new Schema({
+        name: {
+            type: String,
+            required: false
+        },
+        location: {
+            "type": { type: String },
+            "coordinates" :[]
+        },
+        emotion: {
+            type: String,
+            required: false
+        }
+    });
+ ```   
 
 Hardcoded for one coordinae: [ -73.9667, 40.78 ] in function.
 
@@ -98,10 +99,8 @@ npm install
 npm start
 ```
 
-Resources
+## Resources ##
 
-`https://docs.mongodb.com/manual/reference/command/geoSearch/`
-`https://docs.mongodb.com/manual/geospatial-queries/`
-`http://excellencenodejsblog.com/mongoose-aggregation-count-group-match-project/`
-
-
+[MongoDB Spatial](https://docs.mongodb.com/manual/reference/command/geoSearch/)
+[Spatial](https://docs.mongodb.com/manual/geospatial-queries/)
+[Mongo DB](http://excellencenodejsblog.com/mongoose-aggregation-count-group-match-project/)
