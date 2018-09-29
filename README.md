@@ -5,8 +5,8 @@
 - MongoDb installed and running on your development machine.
 
 ## APIS Endpoint
-- ** POST: ** [Insert](http://localhost:3000/api/insert)
-- ** GET: ** [Retrive](http://localhost:3000/api/insert)
+- ** POST: ** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
+- ** GET: ** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
 
 ![Response](response.png)
 
@@ -102,5 +102,8 @@ npm start
 ## Resources ##
 
 [MongoDB Spatial](https://docs.mongodb.com/manual/reference/command/geoSearch/)
-[Spatial](https://docs.mongodb.com/manual/geospatial-queries/)
+
+[MongoDB Spatial](https://docs.mongodb.com/manual/geospatial-queries/)
+
 [Mongo DB](http://excellencenodejsblog.com/mongoose-aggregation-count-group-match-project/)
+
