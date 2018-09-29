@@ -5,8 +5,8 @@
 - MongoDb installed and running on your development machine.
 
 ## APIS Endpoint
-- ** POST: ** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
-- ** GET: ** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
+- **POST:** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
+- **GET:** [http://localhost:3000/api/insert](http://localhost:3000/api/insert)
 
 ![Response](response.png)
 
